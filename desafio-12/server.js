@@ -54,7 +54,7 @@ optionsMongo = { useNewUrlParser: true, useUnifiedTopology: true }
 
 app.use(session({
     store: MongoStore.create({
-        mongoUrl: "mongodb+srv://Mango:Mango1990@clusterbackend.yu80rne.mongodb.net/?retryWrites=true&w=majority",       
+        mongoUrl: "mongodb+srv://Mango:pass@clusterbackend.yu80rne.mongodb.net/?retryWrites=true&w=majority",       
         mongoOptions: optionsMongo,
         ttl: 10
     }),
