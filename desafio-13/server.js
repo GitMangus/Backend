@@ -48,7 +48,7 @@ const storageMessages = new MessageDAOMongoDB()
 // --------- Desafio 13 ----------
 
 const session = require('express-session')
-const flash = require('connect-flash')
+const flash = require('connect-flash')  //Para enviar msjs
 
 const { createHash, isValidPassword } = require('./utils/utils')
 
@@ -58,7 +58,7 @@ const LocalStrategy = require('passport-local').Strategy
 const MongoStore = require('connect-mongo')
 const UserModel = require('./db/models/user')
 
-
+//Middlewares
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
