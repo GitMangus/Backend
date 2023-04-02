@@ -16,4 +16,4 @@ const deserializeUser = () => {
     })
 }
 
-module.exports = deserializeUse
+module.exports = deserializeUser
